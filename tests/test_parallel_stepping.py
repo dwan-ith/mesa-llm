@@ -230,6 +230,7 @@ def test_step_agents_parallel_sync_in_running_loop():
     assert a1.counter == 1
     assert a2.counter == 1
 
+
 def test_automatic_parallel_skips_component_agents():
     """Component agents must only be stepped by their parent."""
     m = DummyModel()
